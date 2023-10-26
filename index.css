@@ -101,12 +101,47 @@ body {
   /* line-height: 2rem; */
   border-radius: 10px;
 }
-.span-font {
+.about-img {
+  height: 250px;
+  border-radius: 1rem;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.title-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 2rem;
   font-weight: bold;
 }
-.about-img {
-  height: 300px;
-  border-radius: 1rem;
+.my-skills {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+.my-skills div {
+  display: flex;
+  width: inherit;
+}
+.my-skills div p {
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  /* text-decoration:underline; */
+  border-bottom: 5px solid rgb(118, 148, 118);
+  padding: 1rem;
 }
 
 /* project */
@@ -230,6 +265,7 @@ body {
   background-color: rgb(80, 80, 80);
   color: #f5f5f5;
   font-size: 15px;
+  font-weight: bold;
 }
 .btn-contactme:hover {
   background-color: rgb(140, 189, 140);
@@ -262,5 +298,18 @@ body {
   .card-project {
     flex-wrap: wrap;
     width: 100%;
+  }
+  .my-skills {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .my-skills {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .my-skills {
+    width: 50%;
   }
 }
