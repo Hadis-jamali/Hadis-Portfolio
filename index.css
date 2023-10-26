@@ -12,7 +12,7 @@ body {
 .container {
   height: 100vh;
   background-color: #646464;
-  background-image: url("./images/hadis-bg.jpg");
+  background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
