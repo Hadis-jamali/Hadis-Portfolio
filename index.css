@@ -288,6 +288,9 @@ body {
   }
 }
 @media only screen and (max-width: 800px) {
+  .countainer {
+    width: 80%;
+  }
   .about {
     flex-wrap: wrap;
   }
