@@ -15,7 +15,6 @@ body {
   background-color: #646464;
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
