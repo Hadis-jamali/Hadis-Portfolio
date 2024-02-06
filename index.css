@@ -287,11 +287,11 @@ body {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 800px) {
   .about {
     flex-wrap: wrap;
   }
-
   .name-title {
     font-size: 2rem;
   }
@@ -299,11 +299,6 @@ body {
     flex-wrap: wrap;
     width: 100%;
   }
-  .my-skills {
-    width: 80%;
-  }
-}
-@media only screen and (max-width: 800px) {
   .my-skills {
     width: 80%;
   }
@@ -322,6 +317,6 @@ body {
   }
   .myname-title {
     font-size: 25px;
-    padding-top: 200px;
+    padding-top: 190px;
   }
 }
