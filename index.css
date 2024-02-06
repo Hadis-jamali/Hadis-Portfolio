@@ -320,4 +320,8 @@ body {
   .img-project {
     width: 300px;
   }
+  .myname-title {
+    font-size: 25px;
+    padding-top: 200px;
+  }
 }
