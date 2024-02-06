@@ -72,8 +72,8 @@ body {
   display: flex;
   justify-content: center;
   height: 30%;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 .about-me {
   display: flex;
@@ -318,5 +318,11 @@ body {
   .myname-title {
     font-size: 25px;
     padding-top: 170px;
+  }
+  .about {
+    margin: 0px;
+  }
+  .info {
+    font-size: 15;
   }
 }
