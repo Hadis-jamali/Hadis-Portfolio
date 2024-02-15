@@ -87,12 +87,21 @@ body {
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 10px;
 }
+.about div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+}
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
 }
 .about .info {
@@ -119,7 +128,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .my-skills {
@@ -150,7 +159,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 3rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .card-project {
   display: flex;
@@ -227,7 +236,7 @@ body {
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .contact-form {
   width: 300px;
