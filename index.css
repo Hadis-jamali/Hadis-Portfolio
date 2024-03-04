@@ -70,51 +70,55 @@ body {
 
 /* about */
 
+.main-about {
+  width: 50%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .about {
-  display: flex;
-  justify-content: center;
-  height: 30%;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  width: 100%;
+  padding: 5rem 0px;
+  color: #191919;
 }
-.about-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  margin: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.about img {
+  height: auto;
+  width: 420px;
   border-radius: 10px;
 }
-.about div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  margin: 2rem;
-  border-radius: 10px;
+.about-text {
+  width: 550px;
 }
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  font-size: 2.5rem;
-  margin-top: 1rem;
+.about-text h1 {
+  color: #000;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
 }
-.about .info {
-  font-size: 25px;
-  text-align: left;
-  padding: 2rem;
-  border-radius: 10px;
+.about-text p {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.about-img {
-  height: 250px;
-  border-radius: 1rem;
+.about-text button {
+  background: rgb(140, 189, 140);
+  color: #000;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: 0.4s;
+}
+.about-text button:hover {
+  background: transparent;
+  border: 2px solid #646464;
+  cursor: pointer;
 }
 
 /* skills */
@@ -309,25 +313,6 @@ body {
   color: black;
   cursor: pointer;
 }
-.div-cv {
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
-}
-.btn-cv {
-  background-color: rgb(80, 80, 80);
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 15px;
-  border: 0;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.btn-cv:hover {
-  background-color: rgb(140, 189, 140);
-  color: black;
-}
 
 /* contact me */
 
@@ -396,6 +381,7 @@ body {
   background: black;
   font-family: sans-serif;
 }
+
 @media only screen and (min-width: 700px) {
   .card-project {
     flex-wrap: wrap;
@@ -404,7 +390,7 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  .about {
+  .main-about {
     flex-wrap: wrap;
   }
   .name-title {
@@ -427,12 +413,12 @@ body {
   body {
     font-size: 12px;
   }
+  .about img {
+    width: 300px;
+  }
   .myname-title {
     font-size: 25px;
     padding-top: 170px;
-  }
-  .about {
-    margin: 0px;
   }
   .info {
     font-size: 15;
