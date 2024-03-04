@@ -288,14 +288,20 @@ body {
 }
 .title-project {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
+  background-color: rgb(140, 189, 140);
+  text-align: center;
+  border-radius: 5px;
 }
 .info-project {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 25px;
   margin: 40px 0;
   font-weight: 400;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
 }
 .btn-project {
   color: #000;
