@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hadis Portfolio</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -30,8 +31,10 @@
           </nav>
         </div>
       </div>
-      <h1 class="myname-title">Hi, I'm Hadis Jamali</h1>
-      <p class="nameDesc">Frontend Developer</p>
+      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <h1 class="myname-title">Hi, I'm Hadis Jamali</h1>
+        <p class="nameDesc">Frontend Developer</p>
+      </div>
     </header>
     <section id="section2" class="about">
       <div class="main-about">
@@ -109,7 +112,12 @@
       <h2 class="head-project">My Projects</h2>
       <p class="main-info-project">Hover to see more details</p>
       <div class="card-project">
-        <div class="cards">
+        <div
+          class="cards"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img class="img-project" src="./images/code6.png" />
           <div class="card-body">
             <p class="title-project">Memory Game</p>
@@ -119,7 +127,7 @@
             </a>
           </div>
         </div>
-        <div class="cards">
+        <div class="cards" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
           <img class="img-project" src="./images/code.png" />
           <div class="card-body">
             <p class="title-project">Quiz App</p>
@@ -129,7 +137,13 @@
             </a>
           </div>
         </div>
-        <div class="cards">
+        <div
+          class="cards"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
           <img class="img-project" src="./images/code2.png" />
           <div class="card-body">
             <p class="title-project">Company Web Page</p>
@@ -141,7 +155,12 @@
         </div>
       </div>
       <div class="card-project">
-        <div class="cards">
+        <div
+          class="cards"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img class="img-project" src="./images/code3.png" />
           <div class="card-body">
             <p class="title-project">To Do List</p>
@@ -151,7 +170,7 @@
             </a>
           </div>
         </div>
-        <div class="cards">
+        <div class="cards" data-aos="fade-up" data-aos-duration="3000">
           <img class="img-project" src="./images/code5.png" />
           <div class="card-body">
             <p class="title-project">Kraftvaerk Project</p>
@@ -161,7 +180,13 @@
             </a>
           </div>
         </div>
-        <div class="cards">
+        <div
+          class="cards"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
           <img class="img-project" src="./images/code4.png" />
           <div class="card-body">
             <p class="title-project">Kaospilot Toolbox Project</p>
@@ -201,4 +226,8 @@
     </footer>
     <script src="./script.js"></script>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

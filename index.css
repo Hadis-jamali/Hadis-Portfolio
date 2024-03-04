@@ -54,14 +54,14 @@ body {
 
 .myname-title {
   display: flex;
-  margin-left: 5rem;
+  margin-left: 7rem;
   font-size: 3rem;
   padding-top: 350px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .nameDesc {
   display: flex;
-  margin-left: 5rem;
+  margin-left: 7rem;
   font-size: 20px;
   padding-top: 15px;
   font-weight: bold;
