@@ -132,6 +132,7 @@ body {
 }
 .social-media {
   display: flex;
+  padding-left: 2rem;
 }
 /* skills */
 
