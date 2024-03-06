@@ -83,12 +83,12 @@ body {
   padding: 5rem 0px;
   color: #191919;
 }
-.about img {
+/* .about img {
   height: auto;
   width: 420px;
-  /* border-radius: 2rem; */
+  border-radius: 2rem;
   padding: 3rem;
-}
+} */
 .about-text {
   width: 600px;
 }
@@ -133,6 +133,12 @@ body {
 .social-media {
   display: flex;
   padding-left: 2rem;
+}
+.animation {
+  width: 400px;
+  height: 300px;
+  background: url(./images/coding.gif) left top;
+  animation: play-sprite 10s 3s steps(1) infinite;
 }
 /* skills */
 
@@ -433,9 +439,9 @@ body {
   body {
     font-size: 12px;
   }
-  .about img {
+  /* .about img {
     width: 300px;
-  }
+  } */
   .myname-title {
     font-size: 25px;
     padding-top: 170px;
