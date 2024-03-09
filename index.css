@@ -324,9 +324,10 @@ body {
   line-height: 25px;
   margin: 40px 0;
   font-weight: 400;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 5px;
   text-align: center;
+  font-weight: bold;
 }
 .btn-project {
   color: #000;
