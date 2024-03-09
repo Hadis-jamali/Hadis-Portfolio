@@ -331,13 +331,16 @@ body {
 .btn-project {
   color: #000;
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 5px;
   text-transform: capitalize;
   border: none;
   outline: none;
   font-weight: 500;
   cursor: pointer;
+  margin: 5px;
+  width: 100%;
+  font-weight: bold;
 }
 
 .btn-project:hover {
