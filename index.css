@@ -323,7 +323,6 @@ body {
   line-height: 25px;
   margin: 40px 0;
   font-weight: 400;
-  /* background-color: #fff; */
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
@@ -432,9 +431,6 @@ body {
   body {
     font-size: 12px;
   }
-  /* .about img {
-    width: 300px;
-  } */
   .myname-title {
     font-size: 25px;
     padding-top: 170px;
