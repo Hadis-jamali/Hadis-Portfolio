@@ -57,7 +57,7 @@ body {
   margin-left: 7rem;
   font-size: 3rem;
   padding-top: 350px;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nameDesc {
   display: flex;
@@ -65,7 +65,7 @@ body {
   font-size: 20px;
   padding-top: 15px;
   font-weight: bold;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo {
   cursor: pointer;
@@ -295,12 +295,12 @@ body {
   object-fit: cover;
 }
 .card-body {
+  backdrop-filter: blur(12px);
   width: 100%;
   height: 100%;
   top: 0;
   right: -100%;
   position: absolute;
-  backdrop-filter: blur(12px);
   border-radius: 5px;
   font-weight: bold;
   padding: 30px;
