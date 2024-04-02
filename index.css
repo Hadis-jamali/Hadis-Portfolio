@@ -211,7 +211,7 @@ body {
 }
 
 .skill-per.css {
-  width: 90%;
+  width: 95%;
   animation-delay: 0.3s;
 }
 .skill-per.javascript {
@@ -219,7 +219,7 @@ body {
   animation-delay: 0.4s;
 }
 .skill-per.react {
-  width: 60%;
+  width: 70%;
   animation-delay: 0.5s;
 }
 .skill-per.nodejs {
