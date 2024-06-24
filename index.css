@@ -317,13 +317,14 @@ body {
 .title-project {
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
+  margin: 10px;
   text-align: center;
   color: #f7f0f0;
   border-radius: 5px;
 }
 .info-project {
-  font-size: 20px;
+  font-size: 1.3rem;
   line-height: 25px;
   margin: 5px;
   font-weight: 400;
@@ -331,6 +332,10 @@ body {
   text-align: center;
   background-color: #fff;
   border: 1px solid rgb(140, 189, 140);
+  margin: 0;
+}
+.project-div{
+  padding: 3px;
 }
 .btn-project {
   color: #000;
@@ -342,7 +347,6 @@ body {
   outline: none;
   font-weight: 500;
   cursor: pointer;
-  margin: 2px;
   width: 100%;
   font-weight: bold;
 }
