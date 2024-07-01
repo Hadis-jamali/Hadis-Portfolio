@@ -71,6 +71,7 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
+  font-family: "Playwrite MX", cursive;
 }
 
 /* about */
@@ -118,8 +119,8 @@ body {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 1rem 2rem;
-  border-radius: 2rem;
+  padding: 10px 2rem;
+  border-radius: 1.5rem;
   transition: 0.4s;
 }
 .about-text button:hover {
@@ -130,7 +131,7 @@ body {
 #github-icon {
   font-size: 36px;
   color: black;
-  padding-top: 3px;
+
   padding-left: 1rem;
 }
 .social-media {
