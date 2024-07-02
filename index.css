@@ -140,9 +140,10 @@ body {
 }
 .animation {
   width: 400px;
-  height: 300px;
+  height: 340px;
   background: url(./images/coding.gif) left top;
   animation: play-sprite 10s 3s steps(1) infinite;
+  background-repeat: no-repeat;
 }
 /* skills */
 
@@ -375,19 +376,19 @@ body {
   align-items: center;
 }
 .button-contactme {
-  margin: 1.5rem;
-  padding: 10px 20px;
-  border: 0;
-  border-radius: 5px;
-  background-color: rgb(80, 80, 80);
-  color: #f5f5f5;
-  font-size: 15px;
-  font-weight: bold;
+  background: rgb(140, 189, 140);
+  color: #000;
   text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 2rem;
+  border-radius: 1.5rem;
+  transition: 0.4s;
 }
 .button-contactme:hover {
-  background-color: rgb(140, 189, 140);
-  color: black;
+  background: transparent;
+  border: 2px solid #646464;
+  cursor: pointer;
 }
 
 /* footer */
