@@ -120,7 +120,7 @@ body {
   border: 2px solid transparent;
   font-weight: bold;
   padding: 10px 2rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   transition: 0.4s;
 }
 .about-text button:hover {
@@ -381,8 +381,8 @@ body {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 10px 2rem;
-  border-radius: 1.5rem;
+  padding: 7px 1.2rem;
+  border-radius: 1rem;
   transition: 0.4s;
 }
 .button-contactme:hover {
