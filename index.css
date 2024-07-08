@@ -129,9 +129,8 @@ body {
   cursor: pointer;
 }
 #github-icon {
-  font-size: 36px;
+  font-size: 34px;
   color: black;
-
   padding-left: 1rem;
 }
 .social-media {
@@ -144,6 +143,10 @@ body {
   background: url(./images/coding.gif) left top;
   animation: play-sprite 10s 3s steps(1) infinite;
   background-repeat: no-repeat;
+}
+
+.icon:hover {
+  color: rgb(53, 133, 78);
 }
 /* skills */
 
