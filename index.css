@@ -128,11 +128,7 @@ body {
   border: 2px solid #646464;
   cursor: pointer;
 }
-#github-icon {
-  font-size: 34px;
-  color: black;
-  padding-left: 1rem;
-}
+
 .social-media {
   display: flex;
   padding-left: 2rem;
@@ -143,10 +139,6 @@ body {
   background: url(./images/coding.gif) left top;
   animation: play-sprite 10s 3s steps(1) infinite;
   background-repeat: no-repeat;
-}
-
-.icon:hover {
-  color: rgb(53, 133, 78);
 }
 /* skills */
 
@@ -399,9 +391,19 @@ body {
   margin-top: 3rem;
   text-align: center;
   color: #fff;
-  padding: 25px 0;
+  padding-bottom: 10px;
   background: black;
-  font-family: sans-serif;
+}
+.github-icon {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.info-footer {
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 700px) {
