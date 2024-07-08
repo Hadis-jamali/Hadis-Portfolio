@@ -89,12 +89,6 @@ body {
   padding: 5rem 0px;
   color: #191919;
 }
-/* .about img {
-  height: auto;
-  width: 420px;
-  border-radius: 2rem;
-  padding: 3rem;
-} */
 .about-text {
   width: 600px;
 }
@@ -193,15 +187,6 @@ body {
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
-@keyframes progress {
-  0% {
-    width: 0;
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .skill-per.javascript {
   width: 90%;
@@ -281,7 +266,6 @@ body {
 .cards:hover .card-body {
   right: 0;
 }
-
 .img-project {
   width: 100%;
   height: 100%;
@@ -305,22 +289,19 @@ body {
 .title-project {
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 600;
   margin: 10px;
   text-align: center;
-  color: #f7f0f0;
+  color: #0e9d29;
   border-radius: 5px;
 }
 .info-project {
-  font-size: 1.3rem;
-  line-height: 25px;
-  margin: 5px;
-  font-weight: 400;
-  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+ 
   text-align: center;
-  background-color: #fff;
-  border: 1px solid rgb(140, 189, 140);
-  margin: 0;
+  color: #0e9d29;
+  border-radius: 5px;
 }
 .project-div {
   padding: 3px;
@@ -441,5 +422,14 @@ body {
   .myname-title {
     font-size: 25px;
     padding-top: 170px;
+  }
+}
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
