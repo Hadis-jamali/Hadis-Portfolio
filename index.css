@@ -25,7 +25,7 @@ body {
   text-align: center;
 }
 .container-navbar {
-  padding: 20px 0;
+  padding: 10px 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -125,7 +125,6 @@ body {
 
 .social-media {
   display: flex;
-  padding-left: 2rem;
 }
 .animation {
   width: 400px;
@@ -298,7 +297,7 @@ body {
 .info-project {
   font-size: 1.5rem;
   font-weight: 600;
- 
+
   text-align: center;
   color: #0e9d29;
   border-radius: 5px;
@@ -372,19 +371,16 @@ body {
   margin-top: 3rem;
   text-align: center;
   color: #fff;
-  padding-bottom: 10px;
+  padding-bottom: 1.5rem;
   background: black;
 }
 .github-icon {
   font-size: 34px;
   color: rgb(255, 255, 255);
-  padding: 10px;
+  padding: 7px;
   display: flex;
   justify-content: center;
   text-decoration: none;
-}
-.info-footer {
-  margin-top: 10px;
 }
 
 @media only screen and (min-width: 700px) {
