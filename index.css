@@ -136,7 +136,41 @@ body {
 
 /* skills */
 
-
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.my-skill-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+.skill-box {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+.skill-img img {
+  height: 3rem;
+  width: 3.5rem;
+}
+.skill-img {
+  padding: 10px;
+}
+.skill-title {
+  align-items: center;
+}
 
 /* project */
 
