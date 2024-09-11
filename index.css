@@ -352,9 +352,9 @@ body {
   }
 }
 @media only screen and (max-width: 430px) {
-  body {
+  /* body {
     font-size: 12px;
-  }
+  } */
   .myname-title {
     font-size: 25px;
     padding-top: 170px;
@@ -388,6 +388,10 @@ body {
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+  }
+
+  .nameDesc {
+    display: block;
   }
 
   .nav-list li {
